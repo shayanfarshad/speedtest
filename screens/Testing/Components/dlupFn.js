@@ -77,7 +77,7 @@ export default async function CommandDlUp(type) {
                 type: 'image/jpg',
                 name: `upload.jpg`,
               });
-            var tempUpLink = 'https://api.romaak.net/speedtest/uploadtest/index.php';
+            var tempUpLink = 'http://service.romaak.net:12086/api/Data/UploadFile';
             return await axios({
                 method: 'POST',
                 url: tempUpLink,
