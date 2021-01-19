@@ -4,8 +4,8 @@ import AppAlert from './index'
 import {navigationRef} from '../navigation/index';
 
 
-// const base = 'http://192.168.3.43:5801/api';
-const base = 'https://romakertebat.com/api';
+const base = 'http://92.114.17.213:5151/api';
+// const base = 'https://romakertebat.com/api';
 // const base = 'http://service.romaak.net:12086/api';
 
 axios.interceptors.response.use(function (response) {

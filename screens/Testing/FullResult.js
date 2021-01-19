@@ -418,7 +418,7 @@ function FullResult({ userScore, navigation, dlData, upData, streamData, browsin
                             </View>
                             <View style={styles.list}>
                                 <P style={Stl.Light}>دانلود بیت ریت(حداکثر)</P>
-                                <P style={Stl.Light}>{typeof (maxDownloadSpeed) === 'number' ? maxDownloadSpeed : '-'} Mb/s</P>
+                                <P style={Stl.Light}>{maxDownloadSpeed !== '' ? maxDownloadSpeed : '-'} Mb/s</P>
                             </View>
                             <View style={styles.list}>
                                 <P style={Stl.Light}>دانلود بیت ریت(میانگین)</P>
